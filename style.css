@@ -41,18 +41,17 @@ a{
 }
 
 .logo{
-    width:180px;
-    height:100%;
+    width:140px;
+    height:80%;
     padding-left: 35px;
-}
-a:hover{
-    /* background-color: aqua; */
+    padding-bottom: 20px;
 }
 
 nav{
     text-align: center;
     color: black;
-    
+    /* background-color:white; */
+    position: fixed;
 }
 .dropdownpic{
     height:50px;
@@ -65,7 +64,7 @@ nav{
     position: fixed;
 }
 .dropdown:hover .dropbtn {
-    background-color:rgb(235, 29, 183);
+    background-color:	#99deff;
 }
 
 
@@ -130,10 +129,7 @@ nav{
     height: 590px;
 }
 
-.preview{
-    /* border: red solid 1px; */
-    
-}
+
 
 .titles{
     /* border: pink solid 1px; */
@@ -168,6 +164,7 @@ nav{
 
 .navbar{
     display: flex;
+    /* position: fixed; */
 }
 
 .QBHero{
@@ -186,17 +183,7 @@ nav{
 }
 
 
-.bg{
-    background-image: ("HeroImageQB.jpg");
 
-    /* Full height */
-    height: 50%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 
 
@@ -373,4 +360,27 @@ display: flex;
 #towers{
     width: 500px;
     height: 100%;
+}
+
+.postHero {
+    width: 98vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 140px;
+}
+
+
+.systemsmap{
+    width: 900px;
+    height:100%;
+
 }
